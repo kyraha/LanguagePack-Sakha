@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Full size ЙЦУКЕН layout by Mikhail Kyraha 2011.
+ Useful for tethered full-size or tablet PC keyboards  
+ QwertyTranslation := specify the characters which are mapped from the English chars to your desired chars.
+ QWERTYUIOPASDFGHJKLZXCVBNM
+ -->
+<PhysicalTranslation QwertyTranslation="йцукенгшщзфывапролдячсмить">
+	<!-- SequenceMapping
+		keySequence := keycode value (as defined in KeyEvent class) to be mapped
+		to a real Unicode character this can be multiple keystrokes.
+	  -->
+	<SequenceMapping keySequence="KEYCODE_GRAVE"            targetChar="ё"/>
+	<SequenceMapping keySequence="KEYCODE_2"                targetChar="ӫ"/>
+	<SequenceMapping keySequence="KEYCODE_3"                targetChar="ӈ"/>
+	<SequenceMapping keySequence="KEYCODE_4"                targetChar="ҥ"/>
+	<SequenceMapping keySequence="KEYCODE_5"                targetChar="ҕ"/>
+	<SequenceMapping keySequence="KEYCODE_6"                targetChar="ө"/>
+	<SequenceMapping keySequence="KEYCODE_7"                targetChar="һ"/>
+	<SequenceMapping keySequence="KEYCODE_8"                targetChar="ү"/>
+	<SequenceMapping keySequence="KEYCODE_LEFT_BRACKET"     targetChar="х"/>
+	<SequenceMapping keySequence="KEYCODE_RIGHT_BRACKET"    targetChar="ъ"/>
+	<SequenceMapping keySequence="KEYCODE_SEMICOLON"        targetChar="ж"/>
+	<SequenceMapping keySequence="KEYCODE_APOSTROPHE"       targetChar="э"/>
+	<SequenceMapping keySequence="KEYCODE_COMMA"            targetChar="б"/>
+	<SequenceMapping keySequence="KEYCODE_PERIOD"           targetChar="ю"/>
+
+	<SequenceMapping keySequence="KEYCODE_GRAVE"            targetChar="Ё" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_2"                targetChar="Ӫ" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_3"                targetChar="Ӈ" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_4"                targetChar="Ҥ" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_5"                targetChar="Ҕ" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_6"                targetChar="Ө" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_7"                targetChar="Һ" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_8"                targetChar="Ү" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_LEFT_BRACKET"     targetChar="Х" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_RIGHT_BRACKET"    targetChar="Ъ" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_SEMICOLON"        targetChar="Ж" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_APOSTROPHE"       targetChar="Э" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_COMMA"            targetChar="Б" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_PERIOD"           targetChar="Ю" shiftModifier="true"/>
+
+	<SequenceMapping keySequence="KEYCODE_1"            targetChar="\?"/>
+	<SequenceMapping keySequence="KEYCODE_9"            targetChar=":"/>
+	<SequenceMapping keySequence="KEYCODE_0"            targetChar=";"/>
+	<SequenceMapping keySequence="KEYCODE_SLASH"        targetChar="."/>
+	<SequenceMapping keySequence="KEYCODE_9"            targetChar="(" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_0"            targetChar=")" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_1"            targetChar="!" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_SLASH"        targetChar="," shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_BACKSLASH"    targetChar="/" shiftModifier="true"/>
+
+	<SequenceMapping keySequence="KEYCODE_GRAVE" targetChar="~" altModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_1" targetChar="1" altModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_2" targetChar="2" altModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_3" targetChar="3" altModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_4" targetChar="4" altModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_5" targetChar="5" altModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_6" targetChar="6" altModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_7" targetChar="7" altModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_8" targetChar="8" altModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_9" targetChar="9" altModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_0" targetChar="0" altModifier="true"/>
+
+</PhysicalTranslation>

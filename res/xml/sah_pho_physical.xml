@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Compact phonetic QWERTY layout by Mikhail Kyraha 2011 
+ QwertyTranslation := specify the characters which are mapped from the English chars to your desired chars.
+ QWERTYUIOPASDFGHJKLZXCVBNM
+ ө ы э р т ү у и о п
+  а с д ҕ г һ й к л
+   ь х ч ҥ б н м
+ -->
+<PhysicalTranslation QwertyTranslation="өыэртүуиопасдҕгһйкльхчҥбнм">
+	<!-- SequenceMapping
+		keySequence := keycode value (as defined in KeyEvent class) to be mapped
+		to a real Unicode character this can be multiple keystrokes.
+	  -->
+	<SequenceMapping keySequence="KEYCODE_B,KEYCODE_B" targetChar="в"/>
+	<SequenceMapping keySequence="KEYCODE_Y,KEYCODE_E" targetChar="е"/>
+	<SequenceMapping keySequence="KEYCODE_Y,KEYCODE_O" targetChar="ё"/>
+	<SequenceMapping keySequence="KEYCODE_Z,KEYCODE_H" targetChar="ж"/>
+	<SequenceMapping keySequence="KEYCODE_Z,KEYCODE_Z" targetChar="з"/>
+	<SequenceMapping keySequence="KEYCODE_F,KEYCODE_F" targetChar="ф"/>
+	<SequenceMapping keySequence="KEYCODE_C,KEYCODE_H" targetChar="ц"/>
+	<SequenceMapping keySequence="KEYCODE_S,KEYCODE_H" targetChar="ш"/>
+	<SequenceMapping keySequence="KEYCODE_S,KEYCODE_H,KEYCODE_H" targetChar="щ"/>
+	<SequenceMapping keySequence="KEYCODE_Z,KEYCODE_X" targetChar="ъ"/>
+	<SequenceMapping keySequence="KEYCODE_Y,KEYCODE_U" targetChar="ю"/>
+	<SequenceMapping keySequence="KEYCODE_Y,KEYCODE_A" targetChar="я"/>
+
+	<SequenceMapping keySequence="KEYCODE_B,KEYCODE_B" targetChar="В" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_Y,KEYCODE_E" targetChar="Е" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_Y,KEYCODE_O" targetChar="Ё" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_Z,KEYCODE_H" targetChar="Ж" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_Z,KEYCODE_Z" targetChar="З" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_F,KEYCODE_F" targetChar="Ф" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_C,KEYCODE_H" targetChar="Ц" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_S,KEYCODE_H" targetChar="Ш" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_S,KEYCODE_H,KEYCODE_H" targetChar="Щ" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_Z,KEYCODE_X" targetChar="Ъ" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_Y,KEYCODE_U" targetChar="Ю" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_Y,KEYCODE_A" targetChar="Я" shiftModifier="true"/>
+</PhysicalTranslation>

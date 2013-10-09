@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="6.5%p"
+    >
+
+    <Row>
+        <Key android:codes="1257" android:keyLabel="ө" android:keyEdgeFlags="left"/>
+        <Key android:codes="1099" android:keyLabel="ы"/>
+        <Key android:codes="1101" android:keyLabel="э"/>
+        <Key android:codes="1088" android:keyLabel="р"/>
+        <Key android:codes="1090" android:keyLabel="т"/>
+
+        <Key android:codes="1105" android:keyLabel="ё" android:horizontalGap="4.5%p"/>
+        <Key android:codes="1077" android:keyLabel="е"/>
+        <Key android:codes="1096" android:keyLabel="ш"/>
+        <Key android:codes="1097" android:keyLabel="щ"/>
+
+        <Key android:codes="1199" android:keyLabel="ү" android:horizontalGap="4.5%p"/>
+        <Key android:codes="1091" android:keyLabel="у"/>
+        <Key android:codes="1080" android:keyLabel="и"/>
+        <Key android:codes="1086" android:keyLabel="о"/>
+        <Key android:codes="1087" android:keyLabel="п" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="1072" android:keyLabel="а" android:keyEdgeFlags="left"
+             android:horizontalGap="1.6%p"/>
+        <Key android:codes="1089" android:keyLabel="с"/>
+        <Key android:codes="1076" android:keyLabel="д"/>
+        <Key android:codes="1173" android:keyLabel="ҕ"/>
+        <Key android:codes="1259" android:keyLabel="ӫ"/>
+
+        <Key android:codes="1092" android:keyLabel="ф" android:horizontalGap="2.9%p"/>
+        <Key android:codes="1074" android:keyLabel="в"/>
+        <Key android:codes="1078" android:keyLabel="ж"/>
+        <Key android:codes="1079" android:keyLabel="з"/>
+
+        <Key android:codes="1075" android:keyLabel="г" android:horizontalGap="2.9%p"/>
+        <Key android:codes="1211" android:keyLabel="һ"/>
+        <Key android:codes="1081" android:keyLabel="й"/>
+        <Key android:codes="1082" android:keyLabel="к"/>
+        <Key android:codes="1083" android:keyLabel="л" android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="-1" android:isModifier="true" android:isSticky="true"
+             android:keyEdgeFlags="left" android:keyWidth="9.7%p"/>
+        <Key android:codes="1100" android:keyLabel="ь"/>
+        <Key android:codes="1093" android:keyLabel="х"/>
+        <Key android:codes="1095" android:keyLabel="ч"/>
+        <Key android:codes="1224" android:keyLabel="ӈ"/>
+
+        <Key android:codes="1103" android:keyLabel="я" android:horizontalGap="1.3%p"/>
+        <Key android:codes="1094" android:keyLabel="ц"/>
+        <Key android:codes="1098" android:keyLabel="ъ"/>
+        <Key android:codes="1102" android:keyLabel="ю"/>
+
+        <Key android:codes="1189" android:keyLabel="ҥ" android:horizontalGap="1.3%p"/>
+        <Key android:codes="1073" android:keyLabel="б"/>
+        <Key android:codes="1085" android:keyLabel="н"/>
+        <Key android:codes="1084" android:keyLabel="м"/>
+        <Key android:codes="-5" android:isRepeatable="true"
+             android:keyEdgeFlags="right" android:keyWidth="9.7%p"/>
+    </Row>
+</Keyboard>
