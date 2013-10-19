@@ -7,6 +7,28 @@
      "iconResId" : a reference to a drawable which can be used to show a flag in the notification bar.
      "layoutResId" : a reference to a keyboard layout XML. See res/xml/qwerty.xml
      -->
-	<Keyboard nameResId="@string/keyboard_name" iconResId="change_me" layoutResId="@xml/qwerty" 
-	    id="change_me" defaultDictionaryLocale="change_me" description="change_me" index="1"/>
+	<Keyboard index="1" defaultEnabled="true"
+		nameResId="@string/keyboard_name"
+		iconResId="@drawable/ic_stat_sah"
+		layoutResId="@xml/sah_cyr"
+		physicalKeyboardMappingResId="@xml/sah_cyr_physical"
+	    id="36b11bd0-d425-11e0-9572-0800200c9a66"
+		defaultDictionaryLocale="sah"
+		description="@string/keyboard_desc"/>
+	<Keyboard index="2" defaultEnabled="true"
+		nameResId="@string/keyboard_phoname"
+		iconResId="@drawable/ic_stat_sah"
+		layoutResId="@xml/sah_pho"
+		physicalKeyboardMappingResId="@xml/sah_pho_physical"
+	    id="542af338-c2d6-4401-9e56-a54272955465"
+		defaultDictionaryLocale="sah"
+		description="@string/keyboard_phodesc"/>
+	<Keyboard index="3"  defaultEnabled="false"
+		nameResId="@string/keyboard_rusname"
+		iconResId="@drawable/ic_stat_sah"
+		layoutResId="@xml/sah_rus"
+		physicalKeyboardMappingResId="@xml/sah_cyr_physical"
+	    id="9f5625d0-dff5-4a4e-acfe-702db22d67c9"
+		defaultDictionaryLocale="sah"
+		description="@string/keyboard_rusdesc"/>
 </Keyboards>

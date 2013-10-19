@@ -11,8 +11,8 @@
 		to a real Unicode character this can be multiple keystrokes.
 	  -->
 	<SequenceMapping keySequence="KEYCODE_GRAVE"            targetChar="ё"/>
-	<SequenceMapping keySequence="KEYCODE_2"                targetChar="ӫ"/>
-	<SequenceMapping keySequence="KEYCODE_3"                targetChar="ӈ"/>
+	<SequenceMapping keySequence="KEYCODE_2"                targetChar="ҋ"/>
+	<SequenceMapping keySequence="KEYCODE_3"                targetChar="њ"/>
 	<SequenceMapping keySequence="KEYCODE_4"                targetChar="ҥ"/>
 	<SequenceMapping keySequence="KEYCODE_5"                targetChar="ҕ"/>
 	<SequenceMapping keySequence="KEYCODE_6"                targetChar="ө"/>
@@ -26,8 +26,8 @@
 	<SequenceMapping keySequence="KEYCODE_PERIOD"           targetChar="ю"/>
 
 	<SequenceMapping keySequence="KEYCODE_GRAVE"            targetChar="Ё" shiftModifier="true"/>
-	<SequenceMapping keySequence="KEYCODE_2"                targetChar="Ӫ" shiftModifier="true"/>
-	<SequenceMapping keySequence="KEYCODE_3"                targetChar="Ӈ" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_2"                targetChar="Ҋ" shiftModifier="true"/>
+	<SequenceMapping keySequence="KEYCODE_3"                targetChar="Њ" shiftModifier="true"/>
 	<SequenceMapping keySequence="KEYCODE_4"                targetChar="Ҥ" shiftModifier="true"/>
 	<SequenceMapping keySequence="KEYCODE_5"                targetChar="Ҕ" shiftModifier="true"/>
 	<SequenceMapping keySequence="KEYCODE_6"                targetChar="Ө" shiftModifier="true"/>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AnySoftKeyboard - change_me Language Pack</string>
-    <string name="keyboard_name">change_me keyboard</string>
-    <string name="dictionary_name">change_me</string>
+    <string name="app_name">AnySoftKeyboard - Sakha Language Pack</string>
+    <string name="keyboard_name">Сахалыы</string>
+    <string name="keyboard_phoname">Кыраһалыы</string>
+    <string name="keyboard_rusname">Нууччалыы</string>
+    <string name="keyboard_desc">Сахалыы толору ЙЦУКЕҤ</string>
+    <string name="keyboard_phodesc">Сахалыы фонетик, QWERTY курдук</string>
+    <string name="keyboard_rusdesc">Нуччалыы ЙЦУКЕН, өр баттаһыннаах</string>
+    <string name="dictionary_name">Sakha/Russian</string>
+    <string name="dictionary_desc">Сахалыы тылдьыт с русскими словами</string>
 </resources>
