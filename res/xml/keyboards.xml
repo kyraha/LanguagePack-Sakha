@@ -11,6 +11,7 @@
 		nameResId="@string/keyboard_name"
 		iconResId="@drawable/ic_stat_sah"
 		layoutResId="@xml/sah_cyr"
+		landscapeResId="@xml/sah_cyr_land"
 		physicalKeyboardMappingResId="@xml/sah_cyr_physical"
 	    id="36b11bd0-d425-11e0-9572-0800200c9a66"
 		defaultDictionaryLocale="sah"
