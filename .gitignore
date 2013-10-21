@@ -17,3 +17,5 @@ local.properties
 
 #MAC OSX
 .DS_Store
+/.settings
+/lint.xml

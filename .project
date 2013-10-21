@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>LanguagePack</name>
+	<name>LanguagePackSakha</name>
 	<comment></comment>
 	<projects>
+		<project>AnySoftKeyboardAPI</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
