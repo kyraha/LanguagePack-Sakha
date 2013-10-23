@@ -14,8 +14,8 @@
         <Key android:codes="1077" android:keyLabel="е" android:popupCharacters="4ёә"/>
 
         <Key android:codes="1085" android:keyLabel="н" android:popupCharacters="5ңњ" android:horizontalGap="0.79%p"/>
-        <Key android:codes="1189" android:keyLabel="ҥ" android:popupCharacters="6ӈ"/>
-        <Key android:codes="1173" android:keyLabel="ҕ" android:popupCharacters="7$"/>
+        <Key android:codes="1189" android:keyLabel="һ" android:popupCharacters="6&amp;"/>
+        <Key android:codes="1173" android:keyLabel="ө" android:popupCharacters="7ӫ"/>
 
         <Key android:codes="1075" android:keyLabel="г" android:popupCharacters="8ғӷ" android:horizontalGap="0.79%p"/>
         <Key android:codes="1096" android:keyLabel="ш" android:popupCharacters="9("/>
@@ -32,9 +32,9 @@
         <Key android:codes="1072" android:keyLabel="а" android:popupCharacters="ӑӓ"/>
         <Key android:codes="1087" android:keyLabel="п" android:popupCharacters="ҧ"/>
 
-        <Key android:codes="1257" android:keyLabel="ө" android:popupCharacters="ӫ" android:horizontalGap="0.79%p"/>
-        <Key android:codes="1211" android:keyLabel="һ" android:popupCharacters="&amp;"/>
-        <Key android:codes="1199" android:keyLabel="ү" android:popupCharacters="*"/>
+        <Key android:codes="1257" android:keyLabel="ҕ" android:popupCharacters="$" android:horizontalGap="0.79%p"/>
+        <Key android:codes="1211" android:keyLabel="ү" android:popupCharacters="&amp;"/>
+        <Key android:codes="1199" android:keyLabel="ҥ" android:popupCharacters="ӈ*"/>
 
         <Key android:codes="1088" android:keyLabel="р" android:popupCharacters="ҏ" android:horizontalGap="0.79%p"/>
         <Key android:codes="1086" android:keyLabel="о" android:popupCharacters="ӧ"/>

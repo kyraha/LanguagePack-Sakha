@@ -15,14 +15,16 @@
 		physicalKeyboardMappingResId="@xml/sah_cyr_physical"
 	    id="36b11bd0-d425-11e0-9572-0800200c9a66"
 		defaultDictionaryLocale="sah"
+		screenshotResId="@drawable/sah_screenshot"
 		description="@string/keyboard_desc"/>
 	<Keyboard index="2" defaultEnabled="true"
-		nameResId="@string/keyboard_phoname"
+		nameResId="@string/keyboard_name"
 		iconResId="@drawable/ic_stat_sah"
 		layoutResId="@xml/sah_pho"
 		physicalKeyboardMappingResId="@xml/sah_pho_physical"
 	    id="542af338-c2d6-4401-9e56-a54272955465"
 		defaultDictionaryLocale="sah"
+		screenshotResId="@drawable/sah_pho_screenshot"
 		description="@string/keyboard_phodesc"/>
 	<Keyboard index="3"  defaultEnabled="false"
 		nameResId="@string/keyboard_rusname"
@@ -31,5 +33,16 @@
 		physicalKeyboardMappingResId="@xml/sah_cyr_physical"
 	    id="9f5625d0-dff5-4a4e-acfe-702db22d67c9"
 		defaultDictionaryLocale="sah"
+		screenshotResId="@drawable/sah_rus_screenshot"
 		description="@string/keyboard_rusdesc"/>
+	<Keyboard index="4" defaultEnabled="false"
+		nameResId="@string/keyboard_name"
+		iconResId="@drawable/ic_stat_sah"
+		layoutResId="@xml/sah_bjk"
+		landscapeResId="@xml/sah_bjk_land"
+		physicalKeyboardMappingResId="@xml/sah_bjk_physical"
+	    id="bd1e43d0-3b95-11e3-aa6e-0800200c9a66"
+		defaultDictionaryLocale="sah"
+		screenshotResId="@drawable/sah_bjk_screenshot"
+		description="@string/keyboard_bjkdesc"/>
 </Keyboards>

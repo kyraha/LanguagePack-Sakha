@@ -9,12 +9,12 @@
     <Row>
         <Key android:codes="1081" android:keyLabel="й" android:popupCharacters="1!" android:keyEdgeFlags="left"/>
         <Key android:codes="1163" android:keyLabel="ҋ" android:popupCharacters="2@"/>
-        <Key android:codes="1101" android:keyLabel="э" android:popupCharacters="3#"/>
-        <Key android:codes="1189" android:keyLabel="ҥ" android:popupCharacters="4ӈ"/>
+        <Key android:codes="1211" android:keyLabel="һ" android:popupCharacters="3#"/>
+        <Key android:codes="1257" android:keyLabel="ө" android:popupCharacters="4ӫ"/>
         <Key android:codes="1173" android:keyLabel="ҕ" android:popupCharacters="5%"/>
-        <Key android:codes="1257" android:keyLabel="ө" android:popupCharacters="6ӫ"/>
-        <Key android:codes="1211" android:keyLabel="һ" android:popupCharacters="7&amp;"/>
-        <Key android:codes="1199" android:keyLabel="ү" android:popupCharacters="8*"/>
+        <Key android:codes="1199" android:keyLabel="ү" android:popupCharacters="6&amp;"/>
+        <Key android:codes="1189" android:keyLabel="ҥ" android:popupCharacters="7ӈ"/>
+        <Key android:codes="1101" android:keyLabel="э" android:popupCharacters="8*"/>
         <Key android:codes="1102" android:keyLabel="ю" android:popupCharacters="9-"/>
         <Key android:codes="1098" android:keyLabel="ъ" android:popupCharacters="0=" android:keyEdgeFlags="right"/>
     </Row>
