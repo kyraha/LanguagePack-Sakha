@@ -10,3 +10,5 @@ LanguagePack
 ============
 
 A language pack plugin for AnySoftKeyboard on-screen keyboard for Android devices.
+
+[Download the latest apk for Android here](./StoreStuff/ask-sakha-keyboard-13.apk)
